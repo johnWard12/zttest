@@ -1,0 +1,911 @@
++----------------------------------------------------------------+
+| Welcome to the ZebraTester Load Test Program.                  |
+| Additional help available with program argument "-help"        |
+| Procedure Copyright by Apica. |
+| All rights reserved.             |
++----------------------------------------------------------------+
+12 Jan 2021 13:20:33.145 | main | Elliptic Curves Provider added
+
+Result File : ZebraReplayRecording_12Jan21_132033_1u.prxres
+
+# concurrent users = 1
+# max. parallel threads per user = [serial execution order for all URLs]
+# planned test duration = 1200 seconds
+# http request timeout = 60 seconds
+# startup delay = 0 milliseconds
+# statistic sampling interval = 900 seconds
+# additional sampling rate per web page call = 0 %
+# additional sampling rate per url call = 0 %
+# extended sampling per url call = disabled (recommended)
+# max loops per user = 1 loops
+# pacing for loops = no pacing
+# http protocol version = v1.1
+# ssl protocol version = all
+# ssl session cache timeout = 600 seconds
+# result file = ZebraReplayRecording_12Jan21_132033_1u.prxres
+# debug loops
+# debug http protocol headers
+# compiled product version = V5.5-Z
+# executed product version = V5.5-Z
+>>> ----- ---------------------------------------------------- ----- <<<
+>>>       REMOTE CONTROLLED TEST STARTED - ON LOCAL PORT 40002       <<<
+>>> ----- ---------------------------------------------------- ----- <<<
+
+# --- thread T000000 created --- 12 Jan 2021 13:20:33.343 ---
+T000000 --- loop started --- 12 Jan 2021 13:20:33.343 ---
+T000000
+T000000
+T000000 # Page #1: Start Page
+T000000 # -------------------
+T000000
+T000000 [1] POST https://shop.ssfautoparts.com:443/api/Account/Login?returnUrl=/Catalog ...
+T000000 >>> {"username":"1226","password":"Kevin","rememberMe":false,"LoginType":0}
+T000000-URL >>> req header: POST /api/Account/Login?returnUrl=/Catalog HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Content-Type: application/json;charset=utf-8
+T000000-URL >>> req header: Request-Id: |c16fO.Vosvq
+T000000-URL >>> req header: Content-Length: 71
+T000000-URL >>> req header: Origin: https://shop.ssfautoparts.com
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Pragma: no-cache
+T000000-URL <<< rcv header: Content-Type: application/json; charset=utf-8
+T000000-URL <<< rcv header: Expires: -1
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: Set-Cookie: ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh; path=/; HttpOnly; SameSite=Lax
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Set-Cookie: .AspNet.TwoFactorCookie=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+T000000-URL <<< rcv header: Set-Cookie: .AspNet.ExternalCookie=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+T000000-URL <<< rcv header: Set-Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; path=/; secure; HttpOnly
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-NewRelic-App-Data: PxQDWF5QCgQTVVRaDgAEV1EJFB9AMQYAZBBZDEtZV0ZaCldOfDdwTSVVVA4TDUxwXwoVEFhdWwMWHnpcBQ8NQBxSFlIUCBoCAF0PWAhTH09VGhVZJFMKBHVWJCRzcAdTJwYEEU4AAg5DB2U=
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 61
+T000000-URL <<< rcv cookie: ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh; path=/; HttpOnly; SameSite=Lax
+T000000-URL <<< rcv cookie: .AspNet.TwoFactorCookie=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+T000000-URL <<< rcv cookie: .AspNet.ExternalCookie=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+T000000-URL <<< rcv cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; path=/; secure; HttpOnly
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 60 bytes received
+T000000    200 (OK), APPLICATION/JSON, 61 bytes, 133 ms
+T000000 [2] GET https://shop.ssfautoparts.com:443/Catalog ...
+T000000-URL >>> req header: GET /Catalog HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/
+T000000-URL >>> req header: Upgrade-Insecure-Requests: 1
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Content-Type: text/html; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 36051
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 32768 bytes received
+T000000-URL <<< rcv content: 3282 bytes received
+T000000    200 (OK), TEXT/HTML, 36051 bytes, 72 ms
+T000000 [3] GET https://shop.ssfautoparts.com:443/Content/site-css?v=BhG0T8OStEtBlCHCLncotpCVjX4Jos1VsujepPAmYtU1 ...
+T000000-URL >>> req header: GET /Content/site-css?v=BhG0T8OStEtBlCHCLncotpCVjX4Jos1VsujepPAmYtU1 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: text/css,*/*;q=0.1
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: public
+T000000-URL <<< rcv header: Content-Type: text/css; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Expires: Wed, 12 Jan 2022 21:20:33 GMT
+T000000-URL <<< rcv header: Last-Modified: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Vary: User-Agent,Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 65168
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 32768 bytes received
+T000000-URL <<< rcv content: 32399 bytes received
+T000000    200 (OK), TEXT/CSS, 65168 bytes, 13 ms
+T000000 [4] GET https://shop.ssfautoparts.com:443/Content/site-lib-css?v=YQibux5kVyZ9eQkHM1kdjmtDkt_1ohVZdxk3rjysuEA1 ...
+T000000-URL >>> req header: GET /Content/site-lib-css?v=YQibux5kVyZ9eQkHM1kdjmtDkt_1ohVZdxk3rjysuEA1 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: text/css,*/*;q=0.1
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: public
+T000000-URL <<< rcv header: Content-Type: text/css; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Expires: Wed, 12 Jan 2022 21:20:33 GMT
+T000000-URL <<< rcv header: Last-Modified: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Vary: User-Agent,Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 38911
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 32768 bytes received
+T000000-URL <<< rcv content: 6142 bytes received
+T000000    200 (OK), TEXT/CSS, 38911 bytes, 11 ms
+T000000 [5] GET https://shop.ssfautoparts.com:443/Content/site-footer-js?v=LKNxoqfhs2WQ5BNCvZs7rdx0Y2iT5giz3MJt3BRBgLY1 ...
+T000000-URL >>> req header: GET /Content/site-footer-js?v=LKNxoqfhs2WQ5BNCvZs7rdx0Y2iT5giz3MJt3BRBgLY1 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: public
+T000000-URL <<< rcv header: Transfer-Encoding: chunked
+T000000-URL <<< rcv header: Content-Type: text/javascript; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Expires: Wed, 12 Jan 2022 21:20:33 GMT
+T000000-URL <<< rcv header: Last-Modified: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Vary: User-Agent,Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv content: 69028 bytes received
+T000000-URL <<< rcv content: 23374 bytes received
+T000000    200 (OK), TEXT/JAVASCRIPT, 92402 bytes, 11 ms
+T000000 [6] GET https://shop.ssfautoparts.com:443/Content/site-header-js?v=mOomipSqcNQaV9ZJYUhLvmMTsY0Ox9zundkwIqJh8AY1 ...
+T000000-URL >>> req header: GET /Content/site-header-js?v=mOomipSqcNQaV9ZJYUhLvmMTsY0Ox9zundkwIqJh8AY1 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: public
+T000000-URL <<< rcv header: Content-Type: text/javascript; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Expires: Wed, 12 Jan 2022 21:20:33 GMT
+T000000-URL <<< rcv header: Last-Modified: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Vary: User-Agent,Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 5231
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 5230 bytes received
+T000000    200 (OK), TEXT/JAVASCRIPT, 5231 bytes, 4 ms
+T000000 [7] GET https://shop.ssfautoparts.com:443/Content/site-footer-lib-js?v=tEoKn79RRbr1kCUBTYuiWYOko9f-OIynakiKJBp-brM1 ...
+T000000-URL >>> req header: GET /Content/site-footer-lib-js?v=tEoKn79RRbr1kCUBTYuiWYOko9f-OIynakiKJBp-brM1 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: public
+T000000-URL <<< rcv header: Transfer-Encoding: chunked
+T000000-URL <<< rcv header: Content-Type: text/javascript; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Expires: Wed, 12 Jan 2022 21:20:33 GMT
+T000000-URL <<< rcv header: Last-Modified: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Vary: User-Agent,Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv content: 68644 bytes received
+T000000-URL <<< rcv content: 13603 bytes received
+T000000    200 (OK), TEXT/JAVASCRIPT, 82247 bytes, 11 ms
+T000000 [8] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/SsfPhoneNum/SsfPhoneNum.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/SsfPhoneNum/SsfPhoneNum.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.mi8CP
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 383
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 382 bytes received
+T000000    200 (OK), TEXT/HTML, 383 bytes, --- ms
+T000000 [9] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FlyoutCartComponents/FlyoutCartItem/FlyoutCartDetail.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/FlyoutCartComponents/FlyoutCartItem/FlyoutCartDetail.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.vFaQj
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 2046
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 2045 bytes received
+T000000    200 (OK), TEXT/HTML, 2046 bytes, --- ms
+T000000 [10] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FlyoutCartComponents/DeleteCart/DeleteCartComponent.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/FlyoutCartComponents/DeleteCart/DeleteCartComponent.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.cqBNJ
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 603
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 602 bytes received
+T000000    200 (OK), TEXT/HTML, 603 bytes, --- ms
+T000000 [11] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FeedbackFormModal/FeedbackFormModal.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/FeedbackFormModal/FeedbackFormModal.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.UvoI+
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 2219
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 2218 bytes received
+T000000    200 (OK), TEXT/HTML, 2219 bytes, --- ms
+T000000 [12] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FlyoutCartComponents/RenameCart/RenameCartComponent.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/FlyoutCartComponents/RenameCart/RenameCartComponent.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.OEOK9
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 767
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 766 bytes received
+T000000    200 (OK), TEXT/HTML, 767 bytes, --- ms
+T000000 [13] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PartImg/PartImgModal.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/PartImg/PartImgModal.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.SBHRE
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 862
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 861 bytes received
+T000000    200 (OK), TEXT/HTML, 862 bytes, --- ms
+T000000 [14] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/VinScanner/VinScanner.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/VinScanner/VinScanner.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.RaG7T
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 1730
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 1729 bytes received
+T000000    200 (OK), TEXT/HTML, 1730 bytes, 4 ms
+T000000 [15] GET https://shop.ssfautoparts.com:443/api/CutOff/GetCutOffSchedule/ ...
+T000000-URL >>> req header: GET /api/CutOff/GetCutOffSchedule/ HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.9chTh
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Content-Type: application/json; charset=utf-8
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-NewRelic-App-Data: PxQDWF5QCgQTVVRaDgAEV1EJFB9AMQYAZBBZDEtZV0ZaCldOfDdwTSdDQy4ABXtcXhATDVtdUhRLdlNHIRMXLVYEawFQXVBHXwAbTQFPA05UGAdVUlUABQFITFMbE3VRJgIFdSdXJ1EBJH4mCnoWHlUEVRJUPA==
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 852
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 851 bytes received
+T000000    200 (OK), APPLICATION/JSON, 852 bytes, 47 ms
+T000000 [16] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/CutoffSchedule/CutoffSchedule.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/CutoffSchedule/CutoffSchedule.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.nGAQC
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 1426
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 1425 bytes received
+T000000    200 (OK), TEXT/HTML, 1426 bytes, --- ms
+T000000 [17] GET https://shop.ssfautoparts.com:443/api/Account/ ...
+T000000-URL >>> req header: GET /api/Account/ HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.Ua1TL
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Content-Type: application/json; charset=utf-8
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-NewRelic-App-Data: PxQDWF5QCgQTVVRaDgAEV1EJFB9AMQYAZBBZDEtZV0ZaCldOfDdwTSVVVA4TDUxwXwoVEFhdWwMWHn9dBgMbQBxSFlIUCBoCA10MVAJYH09VGhUgUlcNAwldU1YPBgRVVwdzEU4AAg5DB2U=
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 1597
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 1596 bytes received
+T000000    200 (OK), APPLICATION/JSON, 1597 bytes, 9 ms
+T000000 [18] GET https://shop.ssfautoparts.com:443/api/NextDeparture/getNextCutOffDepartureFromThisWhse ...
+T000000-URL >>> req header: GET /api/NextDeparture/getNextCutOffDepartureFromThisWhse HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.RUNU5
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Content-Type: application/json; charset=utf-8
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-NewRelic-App-Data: PxQDWF5QCgQTVVRaDgAEV1EJFB9AMQYAZBBZDEtZV0ZaCldOfDdwTSpTTxUiBkhSQhAUEFJyWAgQQ1lfDgMRTVcHTCxdQEBxRhF2B1clVhIFREMUFAZ+QV8JNQpeQmAOF1QUH1JIU04ATAhSDw4HAwVJFFAdQwBVVnV2I18iCHEJJlgncwMVSgJQWkAHOw==
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 138
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 137 bytes received
+T000000    200 (OK), APPLICATION/JSON, 138 bytes, 8 ms
+T000000 [19] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PromoContent/Catalog/CatalogPromoContent.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/PromoContent/Catalog/CatalogPromoContent.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.xksr0
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 725
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 724 bytes received
+T000000    200 (OK), TEXT/HTML, 725 bytes, 1 ms
+T000000 [20] POST https://shop.ssfautoparts.com:443/api/Parts/GetPartsForExpressSearch?partNumSearchTerm=99999999999TEST ...
+T000000-URL >>> req header: POST /api/Parts/GetPartsForExpressSearch?partNumSearchTerm=99999999999TEST HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.fYHjF
+T000000-URL >>> req header: Origin: https://shop.ssfautoparts.com
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Content-Length: 0
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Content-Type: application/json; charset=utf-8
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-NewRelic-App-Data: PxQDWF5QCgQTVVRaDgAEV1EJFB9AMQYAZBBZDEtZV0ZaCldOfDdwTTRXRRUVIFddRBYODltURUkjVEJjAxQXEXYNSidASEZXQBZqBFATUApGGgdPVk8IHQBcWFEHBQZKSQAaEVJVWiBxVHsmegkMAwNUDlkTTVUDCEVSPA==
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 2286
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 2285 bytes received
+T000000    200 (OK), APPLICATION/JSON, 2286 bytes, 91 ms
+T000000 [21] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PartResultAltMsg/PartResultAltMsg.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/PartResultAltMsg/PartResultAltMsg.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.Megoy
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 1166
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 1165 bytes received
+T000000    200 (OK), TEXT/HTML, 1166 bytes, 1 ms
+T000000 [22] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PartDetail/PartDetail.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/PartDetail/PartDetail.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC.EGOz8
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 7465
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 7464 bytes received
+T000000    200 (OK), TEXT/HTML, 7465 bytes, 7 ms
+T000000 [23] GET https://shop.ssfautoparts.com:443/Content/js/angular/components/ViewApplications/ViewApplications.html?cb=13 ...
+T000000-URL >>> req header: GET /Content/js/angular/components/ViewApplications/ViewApplications.html?cb=13 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: application/json, text/plain, */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: X-NewRelic-ID: UA8PUlRUGwIFXFhTBAACXg==
+T000000-URL >>> req header: Request-Id: |V+WpC./b3hQ
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Last-Modified: Wed, 16 Sep 2020 16:55:12 GMT
+T000000-URL <<< rcv header: Accept-Ranges: bytes
+T000000-URL <<< rcv header: ETag: "0d863244a8cd61:0"
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 1094
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 1093 bytes received
+T000000    200 (OK), TEXT/HTML, 1094 bytes, 1 ms
+T000000 [24] GET https://shop.ssfautoparts.com:443/api/Parts/GetMfgIcon?mfgid=194 ...
+T000000-URL >>> req header: GET /api/Parts/GetMfgIcon?mfgid=194 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: image/webp,*/*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 0
+T000000    200 (OK), [No Content Type], --- bytes, 8 ms
+T000000 [25] POST https://shop.ssfautoparts.com:443/Account/LogOff ...
+T000000 >>> loginTypeByParameter=Regular
+T000000-URL >>> req header: POST /Account/LogOff HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Content-Type: application/x-www-form-urlencoded
+T000000-URL >>> req header: Content-Length: 28
+T000000-URL >>> req header: Origin: https://shop.ssfautoparts.com
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Upgrade-Insecure-Requests: 1
+T000000-URL >>> req header: Cookie: .AspNet.ApplicationCookie=ZUOwk2vYLQ3gtn7hQvMlFXMg5tno3Ihl75qH9n44tpJ_geHs4dp6bWfAjKVLKwxpKajSsWRWOEBfWPNMtxJ0Tmg9BziFeQTLKn3G6OTjLQISReswvs-cLwGa_v_opYCBkU2bf_XmHCBlYgJDRgaahWhT7k1Ka1-pBULtIOF4IVoOJg6haqDywb-5xZGjwnVzq0VOJLpPrrLwMo6b04GEHbyQINzwv1Rrd9dYbGROqLfxAMWhn9Ri-PijCLcOFiL2sjBCpoRH0oKeVpbWtVRfyimQ3NM4orpG-e_F8nFVAg9i2SpuwX8ritMn835Dd-4pb1yc5kD4YC90brJn6vd-K2TZ5qEjseeWbnHNWTTsmT1ndxm4CATRNqwbc-eoBG6J-3P1J3hPPBuIcdXRhlw_7DTU1B9oYJVzwzsJqIir4LGHurMKk1ttpEFt92HReZ8LqF830g; ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 302 Found
+T000000-URL <<< rcv header: Cache-Control: no-cache
+T000000-URL <<< rcv header: Pragma: no-cache
+T000000-URL <<< rcv header: Content-Type: text/html; charset=utf-8
+T000000-URL <<< rcv header: Expires: -1
+T000000-URL <<< rcv header: Location: /
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Set-Cookie: .AspNet.ApplicationCookie=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:33 GMT
+T000000-URL <<< rcv header: Content-Length: 23233
+T000000-URL <<< rcv cookie: .AspNet.ApplicationCookie=; path=/; expires=Thu, 01-Jan-1970 00:00:00 GMT
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 23232 bytes received
+T000000    302 (Found), TEXT/HTML, 23233 bytes, 16 ms
+T000000 [26] GET https://shop.ssfautoparts.com:443/ ...
+T000000-URL >>> req header: GET / HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/Catalog
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Upgrade-Insecure-Requests: 1
+T000000-URL >>> req header: Cookie: ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: private
+T000000-URL <<< rcv header: Content-Type: text/html; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Vary: Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNetMvc-Version: 5.2
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:34 GMT
+T000000-URL <<< rcv header: Content-Length: 14924
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 14923 bytes received
+T000000    200 (OK), TEXT/HTML, 14924 bytes, 11 ms
+T000000 [27] GET https://shop.ssfautoparts.com:443/Content/catalog-v1?v=LFM4Eq8ElokY6r_Twb-KjaGEhVwV61J3JmFdF7QIMtg1 ...
+T000000-URL >>> req header: GET /Content/catalog-v1?v=LFM4Eq8ElokY6r_Twb-KjaGEhVwV61J3JmFdF7QIMtg1 HTTP/1.1
+T000000-URL >>> req header: Host: shop.ssfautoparts.com
+T000000-URL >>> req header: User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:84.0) Gecko/20100101 Firefox/84.0
+T000000-URL >>> req header: Accept: */*
+T000000-URL >>> req header: Accept-Language: en-US,en;q=0.5
+T000000-URL >>> req header: Accept-Encoding: gzip, deflate, br
+T000000-URL >>> req header: Connection: Keep-Alive
+T000000-URL >>> req header: Referer: https://shop.ssfautoparts.com/
+T000000-URL >>> req header: Cookie: ASP.NET_SessionId=wul15d2ul3teevfuwydcudmh
+T000000-URL <<< rcv header: HTTP/1.1 200 OK
+T000000-URL <<< rcv header: Cache-Control: public
+T000000-URL <<< rcv header: Content-Type: text/javascript; charset=utf-8
+T000000-URL <<< rcv header: Content-Encoding: gzip
+T000000-URL <<< rcv header: Expires: Wed, 12 Jan 2022 21:20:34 GMT
+T000000-URL <<< rcv header: Last-Modified: Tue, 12 Jan 2021 21:20:34 GMT
+T000000-URL <<< rcv header: Vary: User-Agent,Accept-Encoding
+T000000-URL <<< rcv header: Server: Microsoft-IIS/10.0
+T000000-URL <<< rcv header: X-AspNet-Version: 4.0.30319
+T000000-URL <<< rcv header: Request-Context: appId=cid-v1:db76f788-983f-449f-9921-80f5a6afc71b
+T000000-URL <<< rcv header: Access-Control-Expose-Headers: Request-Context
+T000000-URL <<< rcv header: X-Powered-By: ASP.NET
+T000000-URL <<< rcv header: Date: Tue, 12 Jan 2021 21:20:34 GMT
+T000000-URL <<< rcv header: Content-Length: 2382
+T000000-URL <<< rcv content: 1 byte received
+T000000-URL <<< rcv content: 2381 bytes received
+T000000    200 (OK), TEXT/JAVASCRIPT, 2382 bytes, 4 ms
+T000000 Page 1 Time = 618 ms
+T000000
+T000000 --- loop passed ---  12 Jan 2021 13:20:34.070 --- [remaining loops = 0]
+# 
+# 
+# = =========================
+# = === Final Test Result ===
+# = =========================
+# 
+# 
+# TEST: ZebraReplayRecording
+# --------------------------
+# 
+# *** SSL/TLS ECC is enabled ***
+# *** Warning: Debug loops enabled ***
+# *** Warning: Debug HTTP protocol headers enabled ***
+# 
+# 
+# --- test parameter ---
+# concurrent users: 1
+# planned test duration: 1200 seconds
+# planned loops per user: 1
+# http request timeout: 60 seconds
+# startup delay: 0 milliseconds
+# http protocol version: V1.1
+# statistic sampling interval: 900 seconds
+# additional sampling rate per web page call: 0 %
+# additional sampling rate per url call: 0 %
+# extended sampling level per url call: disabled (recommended)
+# result file: ZebraReplayRecording_12Jan21_132033_1u.prxres
+# 
+# --- test date ---
+# test start:    12 Jan 2021 13:20:33
+# test end:      12 Jan 2021 13:20:34
+# test duration: 1 sec
+# 
+# --- test sequence ---
+# [ 0] Page #1: Start Page
+# [ 1] - POST https://shop.ssfautoparts.com:443/api/Account/Login?returnUrl=/Catalog
+# [ 2] - GET https://shop.ssfautoparts.com:443/Catalog
+# [ 3] - GET https://shop.ssfautoparts.com:443/Content/site-css?v=BhG0T8OStEtBlCHCLncotpCVjX4Jos1VsujepPAmYtU1
+# [ 4] - GET https://shop.ssfautoparts.com:443/Content/site-lib-css?v=YQibux5kVyZ9eQkHM1kdjmtDkt_1ohVZdxk3rjysuEA1
+# [ 5] - GET https://shop.ssfautoparts.com:443/Content/site-footer-js?v=LKNxoqfhs2WQ5BNCvZs7rdx0Y2iT5giz3MJt3BRBgLY1
+# [ 6] - GET https://shop.ssfautoparts.com:443/Content/site-header-js?v=mOomipSqcNQaV9ZJYUhLvmMTsY0Ox9zundkwIqJh8AY1
+# [ 7] - GET https://shop.ssfautoparts.com:443/Content/site-footer-lib-js?v=tEoKn79RRbr1kCUBTYuiWYOko9f-OIynakiKJBp-brM1
+# [ 8] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/SsfPhoneNum/SsfPhoneNum.html?cb=13
+# [ 9] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FlyoutCartComponents/FlyoutCartItem/FlyoutCartDetail.html?cb=13
+# [10] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FlyoutCartComponents/DeleteCart/DeleteCartComponent.html?cb=13
+# [11] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FeedbackFormModal/FeedbackFormModal.html?cb=13
+# [12] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/FlyoutCartComponents/RenameCart/RenameCartComponent.html?cb=13
+# [13] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PartImg/PartImgModal.html?cb=13
+# [14] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/VinScanner/VinScanner.html?cb=13
+# [15] - GET https://shop.ssfautoparts.com:443/api/CutOff/GetCutOffSchedule/
+# [16] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/CutoffSchedule/CutoffSchedule.html?cb=13
+# [17] - GET https://shop.ssfautoparts.com:443/api/Account/
+# [18] - GET https://shop.ssfautoparts.com:443/api/NextDeparture/getNextCutOffDepartureFromThisWhse
+# [19] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PromoContent/Catalog/CatalogPromoContent.html?cb=13
+# [20] - POST https://shop.ssfautoparts.com:443/api/Parts/GetPartsForExpressSearch?partNumSearchTerm=99999999999TEST
+# [21] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PartResultAltMsg/PartResultAltMsg.html?cb=13
+# [22] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/PartDetail/PartDetail.html?cb=13
+# [23] - GET https://shop.ssfautoparts.com:443/Content/js/angular/components/ViewApplications/ViewApplications.html?cb=13
+# [24] - GET https://shop.ssfautoparts.com:443/api/Parts/GetMfgIcon?mfgid=194
+# [25] - POST https://shop.ssfautoparts.com:443/Account/LogOff
+# [26] - GET https://shop.ssfautoparts.com:443/
+# [27] - GET https://shop.ssfautoparts.com:443/Content/catalog-v1?v=LFM4Eq8ElokY6r_Twb-KjaGEhVwV61J3JmFdF7QIMtg1
+# 
+# --- result details ---
+# [ 0] Page #1: Start Page (0 ms delay)
+# [ 1]   passed= 1, failed= 0, average time= 133 ms, min= 133 ms, max= 133 ms, size= 2,002 bytes
+# [ 2]   passed= 1, failed= 0, average time= 72 ms, min= 72 ms, max= 72 ms, size= 37,391 bytes
+# [ 3]   passed= 1, failed= 0, average time= 13 ms, min= 13 ms, max= 13 ms, size= 66,554 bytes
+# [ 4]   passed= 1, failed= 0, average time= 11 ms, min= 11 ms, max= 11 ms, size= 40,301 bytes
+# [ 5]   passed= 1, failed= 0, average time= 11 ms, min= 11 ms, max= 11 ms, size= 93,791 bytes
+# [ 6]   passed= 1, failed= 0, average time= 4 ms, min= 4 ms, max= 4 ms, size= 6,614 bytes
+# [ 7]   passed= 1, failed= 0, average time= 11 ms, min= 11 ms, max= 11 ms, size= 83,640 bytes
+# [ 8]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 1,690 bytes
+# [ 9]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 3,383 bytes
+# [10]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 1,938 bytes
+# [11]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 3,539 bytes
+# [12]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 2,102 bytes
+# [13]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 2,166 bytes
+# [14]   passed= 1, failed= 0, average time= 4 ms, min= 4 ms, max= 4 ms, size= 3,036 bytes
+# [15]   passed= 1, failed= 0, average time= 47 ms, min= 47 ms, max= 47 ms, size= 2,358 bytes
+# [16]   passed= 1, failed= 0, average time= --- ms, min= --- ms, max= --- ms, size= 2,740 bytes
+# [17]   passed= 1, failed= 0, average time= 9 ms, min= 9 ms, max= 9 ms, size= 3,071 bytes
+# [18]   passed= 1, failed= 0, average time= 8 ms, min= 8 ms, max= 8 ms, size= 1,699 bytes
+# [19]   passed= 1, failed= 0, average time= 1 ms, min= 1 ms, max= 1 ms, size= 2,049 bytes
+# [20]   passed= 1, failed= 0, average time= 91 ms, min= 91 ms, max= 91 ms, size= 3,899 bytes
+# [21]   passed= 1, failed= 0, average time= 1 ms, min= 1 ms, max= 1 ms, size= 2,484 bytes
+# [22]   passed= 1, failed= 0, average time= 7 ms, min= 7 ms, max= 7 ms, size= 8,771 bytes
+# [23]   passed= 1, failed= 0, average time= 1 ms, min= 1 ms, max= 1 ms, size= 2,412 bytes
+# [24]   passed= 1, failed= 0, average time= 8 ms, min= 8 ms, max= 8 ms, size= 1,189 bytes
+# [25]   passed= 1, failed= 0, average time= 16 ms, min= 16 ms, max= 16 ms, size= 24,812 bytes
+# [26]   passed= 1, failed= 0, average time= 11 ms, min= 11 ms, max= 11 ms, size= 15,782 bytes
+# [27]   passed= 1, failed= 0, average time= 4 ms, min= 4 ms, max= 4 ms, size= 3,272 bytes
+# 
+# --- summary ---
+# url calls:
+#  - total passed= 27
+#  - total failed= 0
+#  - failure rate= 0.0 %
+#  - network connect time= 2 ms
+#  - SSL handshake time= 90 ms
+#  - recycled network connections= 96.30 %
+# session results per single user - per loop (averages):
+#  - session time= 463 ms (1 page with total 0 ms delay)
+#  - sum of url response time per session= 463 ms (27 urls)
+#  - transmitted data= 422,685 bytes
+#  - session throughput= 912.93 kbytes/sec
+# loadtest summary:
+#  - total 23.58 web transactions per second
+#  - total 369.16 kbytes/sec network throughput over http
+#  - session failure rate= 0.0 %
+# http response code statistics:
+#  - HTTP 200 = 26 url calls
+#  - HTTP 302 = 1 url calls
+# 
+
+>>> ----- ------------------------------------------------------- ----- <<<
+>>>       REMOTE CONTROLLED TEST DONE - GOODBYE AND GOOD LUCK!          <<<
+>>> ----- ------------------------------------------------------- ----- <<<
+
+Result File: ZebraReplayRecording_12Jan21_132033_1u.prxres

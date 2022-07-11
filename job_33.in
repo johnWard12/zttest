@@ -1,0 +1,17 @@
+loadedFromIP=127.0.0.1
+loadedFromLocalPath=C:\Users\pfolan\ZebraTester\MyTests\ZebraReplayRecording.class
+webAdminPmaTemplateFileName=
+jobResultType=1
+execAgentDescription=Local Exec Agent
+clusterMemberLocalId=-1
+totalClusterMembers=-1
+totalClusterConcurrentUsers=-1
+clusterMemberUsersOffset=-1
+clusterJobId=-1
+loadTestFilename=ZebraReplayRecording
+loadTestArgs=-u 1 -d 1200 -sdelay 0 -downlink 0 -uplink 0 -sampling 900 -percpage 0 -percurl 0 -maxerrmem 10 -nolog -replay -tz PST -dgs c -ssl all -sslcache 600 -maxloops 1 -t 60 -pacing 0 -dh
+remotePort=40002
+ticketId=-1
+extraClasspath=
+CLASSPATH=.;C:\Users\pfolan\ZebraTester\prxsniff.jar;C:\Users\pfolan\ZebraTester;C:\Users\pfolan\ZebraTester\iaik_jce_full.jar;C:\Users\pfolan\ZebraTester\iaik_ssl.jar;C:\Users\pfolan\ZebraTester\iaik_eccelerate_ssl.jar;C:\Users\pfolan\ZebraTester\iaik_eccelerate.jar;C:\Users\pfolan\ZebraTester\iaikPkcs11Provider.jar;C:\Users\pfolan\ZebraTester\iaikPkcs11Wrapper.jar
+execStartTime=1610486432038

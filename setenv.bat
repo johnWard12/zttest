@@ -1,0 +1,2 @@
+PATH=C:\Users\John\ZebraTester\jre\bin;%PATH%
+SET CLASSPATH=.;C:\Users\John\ZebraTester\prxsniff.jar;C:\Users\John\ZebraTester;C:\Users\John\ZebraTester\iaik_jce_full.jar;C:\Users\John\ZebraTester\iaik_ssl.jar;C:\Users\John\ZebraTester\iaik_eccelerate_ssl.jar;C:\Users\John\ZebraTester\iaik_eccelerate.jar;C:\Users\John\ZebraTester\iaikPkcs11Provider.jar;C:\Users\John\ZebraTester\iaikPkcs11Wrapper.jar
